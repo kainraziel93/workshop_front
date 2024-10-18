@@ -1,7 +1,21 @@
 .App {
   text-align: center;
+  background-image: url("https://www.gazettemoselle.fr/thumbs/1200%C3%9710000/articles/2022/09/computer-g66f8b0c46-1920.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.journal-element{
+  cursor: pointer;
+  transition: all  ease-in-out 0.3;
 }
 
+.journal-element :hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +49,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.menu h6:hover{
+  color: red;
+  transition: all 0.5s;
+}
+
+.detail-description{
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.preuve-img:hover {
+  transform: scale(1.2);
+}
+
+.preuve-img{
+  transition: all ease-in-out 0.4;
+  
 }
